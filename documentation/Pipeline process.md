@@ -1,0 +1,11 @@
+## The pipline  process steps are :
+- Install node.js
+- Install AWS-Cli
+- Setting up Elastic beanstalk Cli
+- Install Front-End Dependencies
+- Install Back-End Dependencies
+- Front-End Lint
+- Front-End Build
+- Back-End Build
+- Back-End deploy
+- Front-End deploy
