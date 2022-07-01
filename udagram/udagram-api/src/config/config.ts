@@ -1,3 +1,4 @@
+import { ProcessCredentials } from "aws-sdk";
 import * as dotenv from "dotenv";
 dotenv.config();
 
@@ -5,6 +6,8 @@ dotenv.config();
 // - AWS_ACCESS_KEY_ID
 // - AWS_SECRET_ACCESS_KEY
 // Are Also needed
+
+console.log(process.env.POSTGRES_HOST)
 
 export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
@@ -20,4 +23,5 @@ export const config = {
   jwt: {
     secret: process.env.JWT_SECRET,
   },
+  dpPort:Number(process.env.POSTGRES_PORT)
 };

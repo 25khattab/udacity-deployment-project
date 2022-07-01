@@ -6,11 +6,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
-    "test": "ng test --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "frontend:install":"npm install -f",
+    "frontend:build":"ng build",
+    "frontend:deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
+    "test": "ng test --watch=false"
   },
   "private": true,
   "dependencies": {
