@@ -14,7 +14,7 @@
     "clean": "rm -rf www/ || true",
     "zip":"cd www && zip -r Archive.zip . && cd ..",
     "backend:install":"npm install .",
-    "backend:build": "npm run clean && tsc && cp .npmrc www/.npmrc && cp .env www/.env  && cp package.json www/package.json && npm run zip ",
+    "backend:build": "npm run clean && tsc && cp .npmrc www/.npmrc && cp package.json www/package.json && npm run zip ",
     "backend:deploy": "eb use udagram-api-dev && eb deploy udagram-api-dev"
     
   },
