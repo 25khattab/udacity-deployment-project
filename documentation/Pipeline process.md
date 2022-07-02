@@ -5,6 +5,7 @@
 - Install Front-End Dependencies
 - Install Back-End Dependencies
 - Front-End Lint
+- Front-End Test
 - Front-End Build
 - Back-End Build
 - Back-End deploy

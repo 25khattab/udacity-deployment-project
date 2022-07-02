@@ -8,8 +8,8 @@
     "start": "ng serve",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "frontend:install":"npm install -f",
-    "frontend:build":"ng build",
+    "frontend:install": "npm install -f",
+    "frontend:build": "ng build",
     "frontend:deploy": "chmod +x bin/deploy.sh && bin/deploy.sh",
     "test": "ng test --watch=false"
   },
@@ -27,6 +27,7 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.1.0",
     "core-js": "^2.5.4",
+    "ng": "^0.0.0",
     "rxjs": "~6.5.4",
     "zone.js": "~0.9.1"
   },
